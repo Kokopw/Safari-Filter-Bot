@@ -214,8 +214,7 @@ Money heist S0E01
 
 ★ Mᴇssᴀɢᴇ <code>{}</code>"""
 
-    CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}</b>"""
+    CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/Strangerthing50">𝘾𝙝𝙖𝙧𝙡𝙞𝙚 𝙈𝙤𝙫𝙞𝙚𝙨</a>」</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
