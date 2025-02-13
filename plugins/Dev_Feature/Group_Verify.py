@@ -121,7 +121,7 @@ async def grpp_verify(bot, message):
             )
     else:
         if owner:
-            await message.reply_text(text=f" ʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ ʙʏ ᴍʏ ᴀᴅᴍɪɴ.\n\nɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ᴠᴇʀɪғɪᴇᴅ ᴛʜᴇɴ contact ᴛʜᴇ ᴀᴅᴍɪɴ. @Safaridev.")
+            await message.reply_text(text=f" ʏᴏᴜʀ ɢʀᴏᴜᴘ ʜᴀs ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ ʙʏ ᴍʏ ᴀᴅᴍɪɴ.\n\nɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɢʀᴏᴜᴘ ᴠᴇʀɪғɪᴇᴅ ᴛʜᴇɴ contact ᴛʜᴇ ᴀᴅᴍɪɴ. @CharlieWatson1")
         else:
             await message.reply("ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴs")
 
