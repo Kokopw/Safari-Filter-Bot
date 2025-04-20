@@ -60,8 +60,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Gebits")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Safaribotts')
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'adsfly.in'))
-STREAM_API = (environ.get('STREAM_API', 'ee5868654d787db9ddd2352a5c0151b15a1a2ea6'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.com'))
+STREAM_API = (environ.get('STREAM_API', '0f679f8e7f174b89bf0f5eeb3c594d21fe587266'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Howtodownload89/4'))
 STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 
@@ -69,16 +69,16 @@ STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
 #verify site api and url
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-VERIFY_URL = environ.get('VERIFY_URL', 'adsfly.in')
-VERIFY_API = (environ.get('VERIFY_API', 'ee5868654d787db9ddd2352a5c0151b15a1a2ea6'))
+VERIFY_URL = environ.get('VERIFY_URL', 'modijiurl.com')
+VERIFY_API = (environ.get('VERIFY_API', '0f679f8e7f174b89bf0f5eeb3c594d21fe587266'))
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "600"))
-VERIFY_URL2 = environ.get('VERIFY_URL2', 'adsfly.in')
-VERIFY_API2 = (environ.get('VERIFY_API2', 'ee5868654d787db9ddd2352a5c0151b15a1a2ea6'))
+VERIFY_URL2 = environ.get('VERIFY_URL2', 'modijiurl.com')
+VERIFY_API2 = (environ.get('VERIFY_API2', '0f679f8e7f174b89bf0f5eeb3c594d21fe587266'))
  
 THIRD_VERIFY_GAP = int(environ.get('THIRD_VERIFY_GAP', "600"))
-VERIFY_URL3 = environ.get('VERIFY_URL3', 'adsfly.in')
-VERIFY_API3 = (environ.get('VERIFY_API3', 'ee5868654d787db9ddd2352a5c0151b15a1a2ea6'))
+VERIFY_URL3 = environ.get('VERIFY_URL3', 'modijiurl.com')
+VERIFY_API3 = (environ.get('VERIFY_API3', '0f679f8e7f174b89bf0f5eeb3c594d21fe587266'))
  
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Howtodownload89/4')
 TUTORIAL2 = environ.get('TUTORIAL2', 'https://t.me/Howtodownload89/4')
