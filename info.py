@@ -63,11 +63,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Safaribotts')
 STREAM_SITE = (environ.get('STREAM_SITE', 'urlshortx.com'))
 STREAM_API = (environ.get('STREAM_API', 'c62cba1296f5a84421e689fff031ac4e19a4adb0'))
 STREAM_HTO = (environ.get('STREAMHTO', 'https://t.me/Howtodownload89/4'))
-STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "False")), False)
+STREAM_MODE = is_enabled((environ.get('STREAM_MODE', "True")), False)
 
 
 #verify site api and url
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 VERIFY_URL = environ.get('VERIFY_URL', 'urlshortx.com')
 VERIFY_API = (environ.get('VERIFY_API', 'c62cba1296f5a84421e689fff031ac4e19a4adb0'))
