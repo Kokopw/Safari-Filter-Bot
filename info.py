@@ -58,7 +58,7 @@ AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002311029545'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gepedeb144:BjmKpEq67rHSbY8R@cluster0.jie42nw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://siyoc42936:x9LLkUGGuEaeNgC1@cluster0.jkravan.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI_2 = environ.get('DATABASE_URI_2', "mongodb+srv://geyasog667:T5xueOIhvBjyxwit@cluster0.u1a2rpy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Gebits")
 DATABASE_NAME_2 = environ.get('DATABASE_NAME_2', "Gebits2")
