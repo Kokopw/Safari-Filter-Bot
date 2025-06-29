@@ -62,7 +62,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gebit25986:vse9d92xg3z
 DATABASE_URI_2 = environ.get('DATABASE_URI_2', "mongodb+srv://geyasog667:T5xueOIhvBjyxwit@cluster0.u1a2rpy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Gebits")
 DATABASE_NAME_2 = environ.get('DATABASE_NAME_2', "Gebits2")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Safaribotts')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ch_files')
 
 # Database settings
 DB_MAX_SIZE = int(environ.get('DB_MAX_SIZE', 536870912))  # 512MB default
