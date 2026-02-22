@@ -59,7 +59,7 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://siyoc42936:x9LLkUGGuEaeNgC1@cluster0.jkravan.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI_2 = environ.get('DATABASE_URI_2', "mongodb+srv://fasovet583_db_user:Uo5RKAiIxp7vFwS0@cluster0.8ffovud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI_2 = environ.get('DATABASE_URI_2', "mongodb+srv://qfwamlqpmj_db_user:PlDHmU8WNvtntKCO@cluster0.k41sqog.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Gebits")
 DATABASE_NAME_2 = environ.get('DATABASE_NAME_2', "Gebits2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Ch_files')
