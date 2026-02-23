@@ -30,7 +30,7 @@ PICS = (environ.get('PICS', 'https://envs.sh/ftb.jpg https://envs.sh/ftI.jpg htt
 WELCOME_VID = environ.get("WELCOME_VID", "https://envs.sh/fKh.mp4")
 
 # Maintenance mode
-MAINTENANCE_MODE = is_enabled((environ.get('MAINTENANCE_MODE', 'True')), False)
+MAINTENANCE_MODE = is_enabled((environ.get('MAINTENANCE_MODE', 'False')), False)
 
 #premium imag
 REFFER_PIC = environ.get('REFFER_PIC', 'https://graph.org/file/f75feb19aece0d4badefd.jpg')
