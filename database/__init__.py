@@ -1,0 +1,5 @@
+
+from .users_chats_db import Database
+from info import DATABASE_URI, DATABASE_URI_2, DATABASE_NAME, DATABASE_NAME_2
+
+db = Database(DATABASE_URI, DATABASE_NAME, DATABASE_URI_2, DATABASE_NAME_2)
