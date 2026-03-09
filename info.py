@@ -125,7 +125,7 @@ REACTION = ["🔥", "❤️", "😍", "⚡", "👍", "❤", "🔥", "🥰", "�
 
 # Streaming
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1002402279066")) 
-PORT = int(environ.get('PORT', 5000))
+PORT = int(environ.get('PORT', 8080))
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
