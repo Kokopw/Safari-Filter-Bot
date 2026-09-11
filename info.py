@@ -50,7 +50,7 @@ LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'False')), False)
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1605422146').split()]
 OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "CharlieWatson1") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002224002358').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002224002358, -1001603276140').split()]
 # post channel auto post new movie
 POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002268500999').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002311029545'))
